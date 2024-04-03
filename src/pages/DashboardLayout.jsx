@@ -1,5 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 const DashBoardLayout = () => {
-  return <h1>DashBoard Page</h1>;
+  return (
+    <div>
+      <Outlet />
+    </div>
+  );
 };
 
 export default DashBoardLayout;
